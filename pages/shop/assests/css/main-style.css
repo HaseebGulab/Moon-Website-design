@@ -1,0 +1,68 @@
+#bg-offer1 {
+
+    background: url("../../images/snd3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+#bg-offer2 {
+
+    background: url("../../images/snd1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+#bg-offer2-1 {
+
+    background: url("../../images/snd6.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+
+#bg-offer3 {
+
+    background: url("../../images/snd2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+#bg-offer4 {
+
+    background: url("../../images/snd4.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+
+#bg-offer5 {
+
+    background: url("../../images/snd5.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.offer1 {
+    width: 50%;
+}
+
+.offerq1 {
+    width: 50%;
+    padding-top: 145px;
+    padding-right: 140px;
+}
+
+.btn-span {
+    display: inline-block;
+    background-color: black;
+    padding: 15px 15px 15px 15px;
+    float: right;
+}

@@ -1,0 +1,291 @@
+h5 a{
+    color: black;
+    margin-bottom: 8px;
+}
+
+ul.sc-ab {
+    display: flex !important;
+}
+
+
+ul.sc-ab i {
+    color: black !important;
+}
+
+
+ul.sc-ab li {
+    width: 10% !important;
+    float: left !important;
+    margin-top: 5px !important;
+}
+
+
+.offset-xl-1 {
+    margin-left: 4.333333%;
+}
+
+.header-content {
+    
+background:url("../../images/w1.jpg");
+background-size:cover;
+
+}
+
+
+.header-content-right {
+    position: relative;
+    background: linear-gradient(22deg,#fdfcfcd9, #fffdfd);
+    padding: 30px;
+}
+ 
+ 
+ .bg-cover {
+    background:url("../../images/bg-logos.jpg");
+    width: 100%;
+    height: 120px;
+    padding: 14px 14px 14px 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ 
+ 
+      .main-container{
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .color-1{
+
+            color: #b87fa8;
+        }
+
+        .color-2{
+
+color: #0bbe05;
+}
+
+.color-3{
+
+color: #e20000;
+}
+
+.color-4{
+
+color: #e205e2;
+}
+
+.color-5{
+
+color: #2500ca;
+}
+
+.color-6{
+
+color: #0162e0;
+}
+
+.color-7{
+
+color: #00e97c;
+}
+
+.color-8{
+
+color: #414141;
+}
+
+.infographic-box h5{
+    font-size: 25px;
+    margin: 0px 0px 10px;
+}
+
+
+.text-style{
+    position: absolute;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.steps-ul li span{
+
+    float: left;
+    width: 100%;
+    font-size: 40px;
+    line-height: 25px;
+}
+
+.container-inner-img{
+    width: 484px;
+    position: relative;
+    margin: 126px auto;
+
+}
+ .infographic-box{
+     position: absolute;
+     width: 285px;
+ }
+ 
+
+ .infographic-box.info-pos-1{
+     top:-118px;
+     left: -126px;
+     
+ }
+ .infographic-box.info-pos-2{
+     top:-118px;
+     left: 415px;
+ }
+ .infographic-box.info-pos-3{
+     top:77px;
+     left: 518px;
+     width: 246px;
+ }
+ .infographic-box.info-pos-4{
+     top:270px;
+     left: 517px;
+ }
+
+ .infographic-box.info-pos-5{
+     top:479px;
+     left: 327px;
+ }
+
+ .infographic-box.info-pos-6{
+     top:480px;
+     left: -50px;
+ }
+
+ .infographic-box.info-pos-7{
+     top:257px;
+     left: -276px;
+ }
+
+ .infographic-box.info-pos-8{
+     top: 79px;
+     left: -269px;
+ }
+
+.infographic-box.info-pos-7.aos-init.aos-animate {
+    margin: 15px 10px 12px 10px;
+}
+
+
+.infographic-box.info-pos-1:hover {
+    border-radius: 22px;
+    padding: 14px 12px 12px 12px;
+    width: 245px;
+    cursor:pointer;
+}
+
+.infographic-box.info-pos-2:hover {
+    border-radius: 22px;
+    padding: 14px 12px 12px 12px;
+        width: 245px;
+    cursor:pointer;
+}
+
+.infographic-box.info-pos-3:hover {
+    border-radius: 22px;
+    padding: 14px 12px 12px 12px;
+        width: 245px;
+    cursor:pointer;
+}
+
+.infographic-box.info-pos-4:hover {
+    border-radius: 22px;
+    padding: 14px 12px 12px 12px;
+    width: 245px;
+    cursor:pointer;
+}
+
+.infographic-box.info-pos-5:hover {
+    border-radius: 22px;
+    padding: 14px 12px 12px 12px;
+    width: 245px;
+    cursor:pointer;
+}
+
+.infographic-box.info-pos-6:hover {
+    border-radius: 22px;
+    padding: 14px 12px 12px 12px;
+    width: 245px;
+    cursor:pointer;
+}
+
+.infographic-box.info-pos-7:hover {
+    border-radius: 22px;
+    padding: 14px 12px 12px 12px;
+    width: 245px;
+    cursor:pointer;
+}
+
+.infographic-box.info-pos-8:hover {
+    border-radius: 22px;
+    padding: 14px 12px 12px 12px;
+    width: 245px;
+    cursor:pointer;
+}
+
+
+
+ li.text-style.pos-1{
+
+    top: 30px;
+    left: 154px;
+ }
+
+ li.text-style.pos-2{
+
+top: 31px;
+left: 276px;
+}
+
+li.text-style.pos-3{
+
+top: 138px;
+left: 393px;
+}
+
+
+li.text-style.pos-4{
+
+top: 268px;
+left: 393px;
+}
+
+li.text-style.pos-5{
+
+top: 385px;
+left: 296px;
+}
+
+li.text-style.pos-6{
+
+top: 384px;
+left: 143px;
+}
+
+li.text-style.pos-7{
+
+top: 282px;
+left: 47px;
+}
+
+li.text-style.pos-8{
+
+top: 144px;
+left: 40px;
+}
+
+div#info-maina1 {
+    margin: 102px 102px 312px;
+}
+
+@media (max-width:980px){
+    div#info-maina1 {
+    margin: 102px 102px 312px;
+    display: none;
+}
+}

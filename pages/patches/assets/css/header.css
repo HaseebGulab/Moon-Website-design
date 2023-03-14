@@ -1,0 +1,19 @@
+.header-content {
+    height: 330px;
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+    overflow: hidden;
+    background-color: #e1c75b;
+}
+
+.header-content p {
+
+    color: #000000;
+
+}
+
+.contact-box .contact-icon i {
+    font-size: 48px;
+    color: #e0c664;
+}

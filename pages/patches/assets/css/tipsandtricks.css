@@ -1,0 +1,106 @@
+h1.title {
+    margin-top: 145px;
+}
+
+h1.free1-down {
+    text-align: center;
+    font-size: 34px;
+    
+}
+
+div#free1q {
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 40px;
+}
+
+.free-ul li a{
+    color:white;
+    
+}
+
+.free-ul li a:hover{
+    
+    color: black!important;
+}
+
+.free-ul li{
+list-style-image: url(../images/arrow-anchor.png);
+}
+
+h4.free1 {
+
+    margin: 14px 5px 14px 20px;
+    font-size: 34px;
+    color:white;
+}
+
+.row-about {
+    padding: 45px 45px 4px 45px;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: unset;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
+
+
+h1.free1-down {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 34px;
+}
+
+
+p#para-about2 {
+    margin: 14px 5px 14px 15px;
+    color:white;
+    padding: 10px;
+    
+}
+
+.row-about1 {
+    padding: 4px 45px 45px 45px;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: unset;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
+
+
+.free-ul {
+    margin: 14px 5px 14px 25px;
+    color:white;
+    padding: 10px;
+    
+}
+
+.col-lg-4 {
+    background-color: #11110f;
+    margin: 5px 5px 5px 5px;
+    padding-right:0px;
+    padding-left: 0px;
+    
+}
+
+
+.col-lg-4:hover {
+    background-color: #e0c664;
+    
+}
+
+
+
+@media(max-width:800px){
+    .row-about {
+    padding: 25px 5px 25px 25px;
+    display: block;
+    flex-wrap: unset;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
+}

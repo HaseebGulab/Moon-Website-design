@@ -1,0 +1,27 @@
+.row.bg-secondary.py-1.px-xl-5 {
+    display: none;
+}
+
+.bg-light {
+    background-color: #0b0b0b !important;
+}
+
+h5, h6{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+p.m-0 {
+        color: #ffffff;
+}
+
+a.h6.text-decoration-none.text-truncate {
+    color: white;
+}
+
+.w-100 {
+    width: 100% !important;
+    background-color: #eaeaea;
+}

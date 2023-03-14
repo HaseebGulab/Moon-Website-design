@@ -1,0 +1,121 @@
+
+	body {
+		overflow-x: hidden;
+	}
+.sliderCombined {
+	display: flex;
+	height: 100%;
+}
+.imgleft
+{
+	position: absolute;
+	left: -810px;
+	width: 50%;
+	height: 100%;
+}
+
+.imgRight {
+	position: absolute;
+	right: -810px;
+	width: 50%;
+	height: 100%;
+}
+
+.imgleft > img, .imgRight > img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+#fullImage,#fullImage2, #fullImage3  {
+	position: absolute;
+	top: -50px;
+	margin:0 auto;
+	z-index: 999;
+	/* left: 29.3%; */
+	transform:scale(0, 0);
+	transition: all 0.25 ease-in-out;
+}
+
+.sliderCombined {
+	position: relative;
+	/* height: 820px; */
+}
+
+.content {
+	/* height: 5000px; */
+}
+
+.wrapper {
+	
+}
+
+.box {
+	display: flex;
+	flex: 100%;
+	margin-bottom: 15px;
+    flex-direction: row;
+    flex-grow: initial;
+}
+
+.box-item {
+	margin: 0 15px;
+	width: 220px;
+    flex-direction: column;
+	border:1px solid yellow
+}
+
+.box-item > img {
+	width: 100%;
+}
+
+.sliderArrow {
+	position: absolute;
+	top: 50%;
+	padding: 0px;
+	z-index: 99999;
+	
+	width: 100%;
+}
+
+.slider-btn {
+	width: 50px;
+    height: 50px;
+	background: #333;
+	color: #fff;
+}
+
+.prev {
+	position: absolute;
+	left: 25px;
+}
+
+.next {
+	position: absolute;
+	right: 25px;
+}
+
+/* Fading animation */
+.fade {
+	animation-name: fade;
+	animation-duration: 6s;
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+
+/* #fullImage2 {
+  	position: absolute;
+    top: 25px;
+    margin: auto;
+    z-index: 999;
+    left: 27%;
+    transform: scale(0, 0);
+    transition: all 0.25 ease-in-out;
+} */
+
+#comboSlider {
+	height: 81vh;
+}
